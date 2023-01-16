@@ -9,8 +9,8 @@ const Profile = () => {
         <div class="px-6">
             <div class="flex flex-wrap justify-center">
                 <div class="w-full flex justify-center">
-                    <div class="relative">
-                        <img src="https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/blob/main/build/assets/img/team-2.jpg?raw=true" class="shadow-xl rounded-full align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-[150px]"/>
+                    <div class="relative h-20 w-20">
+                        <img src="https://images.pexels.com/photos/5591214/pexels-photo-5591214.jpeg?auto=compress&cs=tinysrgb&w=600"/>
                     </div>
                 </div>
                 <div class="w-full text-center mt-20">
