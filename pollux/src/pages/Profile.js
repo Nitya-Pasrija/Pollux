@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 
 const Profile = () => {
   return (
-    <div>
+    <div className='bg-[#C6D3C2]'>
         <Navbar/>
         <div class="relative max-w-md mx-auto md:max-w-2xl mt-6 min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-xl mt-16">
         <div class="px-6">
@@ -47,6 +47,7 @@ const Profile = () => {
             </div>
         </div>
     </div>
+    <div className="bg-gray-800 h-8 w-screen"></div>
     </div>
   )
 }

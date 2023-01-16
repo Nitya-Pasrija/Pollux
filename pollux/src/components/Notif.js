@@ -6,7 +6,7 @@ export default function Notif() {
   return (
     <>
       <button
-        className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+        className="rounded-full bg-[#193C36] p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
         type="button"
         onClick={() => setShowModal(true)}
       >
