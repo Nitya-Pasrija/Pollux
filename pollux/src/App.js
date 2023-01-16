@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import ReportBox from './pages/ReportBox';
+import Achivements from './pages/Achivements';
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/reportBox' element={<ReportBox/>}/>
+          <Route path='/achivements' element={<Achivements/>}/>
+          <Route path='/profile' element={<Profile/>}/>
         </Routes>
     </BrowserRouter>
   );
