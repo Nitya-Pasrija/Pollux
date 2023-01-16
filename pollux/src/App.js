@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import ReportBox from './pages/ReportBox';
 import Achivements from './pages/Achivements';
 import Profile from './pages/Profile';
+import Employees from './pages/Employees';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/reportBox' element={<ReportBox/>}/>
           <Route path='/achivements' element={<Achivements/>}/>
           <Route path='/profile' element={<Profile/>}/>
+          <Route path='/employees' element={<Employees/>}/>
         </Routes>
     </BrowserRouter>
   );
